@@ -14,4 +14,4 @@ def extract_orders():
 if __name__ == "__main__":
     orders = extract_orders()
     print(f"Loaded {len(orders)} orders")
-    print(orders[0])
+    print(orders[0:3])
